@@ -1,6 +1,6 @@
 # week07/.github/workflows/backend_ci.yml
 
-#adding a comment to test the successful running of the Backend CI workflow when triggeredbyanupdate to the codebase
+#Adding a comment to test the successful running of the Backend CI workflow when triggeredbyanupdate to the codebase
 
 name: Backend CI - Test, Build and Push Images to ACR
 
