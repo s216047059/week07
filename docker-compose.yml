@@ -54,7 +54,7 @@ services:
     environment:
       POSTGRES_HOST: product_db # Connects to the 'product_db' service within Docker network
       AZURE_STORAGE_ACCOUNT_NAME: dilanka # Replace with your Azure Storage account name
-      AZURE_STORAGE_ACCOUNT_KEY: n/POdVzZzaGdIKFQAW279svbceGAakPxyWcfu37gzh2moouk28BG63GzCXmT40ZzcR7ioQFSweOH+AStXMCzXQ== # Replace with your Azure Storage account key
+      AZURE_STORAGE_ACCOUNT_KEY: <key> # Replace with your Azure Storage account key
       AZURE_STORAGE_CONTAINER_NAME: dilankacon # Replace with your Azure Storage container name
       AZURE_SAS_TOKEN_EXPIRY_HOURS: 24
     depends_on:
